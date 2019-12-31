@@ -5,6 +5,9 @@ function changeTurn(result){
         return "x";
 }
 
+
+
+
 function checkForWinner(){
     var index00 = document.querySelector("#index00").innerHTML; 
     var index01 = document.querySelector("#index01").innerHTML; 
@@ -135,6 +138,18 @@ $(document).ready(function(){
             if(checkForWinner() == "x" || checkForWinner() == "o")
             document.querySelector("#winner").innerHTML = checkForWinner().toUpperCase() + " won";
         }
+    });
+
+    $("#reset").click(function(){
+        document.querySelector("#index00").innerHTML = ""; 
+        document.querySelector("#index01").innerHTML = ""; 
+        document.querySelector("#index02").innerHTML = ""; 
+        document.querySelector("#index10").innerHTML = ""; 
+        document.querySelector("#index11").innerHTML = ""; 
+        document.querySelector("#index12").innerHTML = ""; 
+        document.querySelector("#index20").innerHTML = ""; 
+        document.querySelector("#index21").innerHTML = ""; 
+        document.querySelector("#index22").innerHTML = ""; 
     });
     
    

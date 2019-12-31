@@ -1,19 +1,24 @@
 table{
-   margin-left: auto;
-   margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 td{
     border: 2px solid grey;
-    width: 150px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
 
-    color: darkred;
+    color:#137091;
     text-align: center;
 }
-h1{
+
+#reset{
+   margin-left: 345px;
+   
+}
+#winner{
     text-align: center;
     font-size: x-large;
-    color: darkred;
+    color: #137091
 }
 #index02{
     border-top: none;
@@ -57,5 +62,6 @@ h1{
     border-right: none;
     border-bottom: none;
 }
-
-
+ 
+ 
+ 
