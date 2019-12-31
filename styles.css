@@ -11,10 +11,10 @@ td{
     text-align: center;
 }
 
-#reset{
-   margin-left: 345px;
-   
+#button{
+    text-align: center;
 }
+
 #winner{
     text-align: center;
     font-size: x-large;

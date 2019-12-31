@@ -150,6 +150,9 @@ $(document).ready(function(){
         document.querySelector("#index20").innerHTML = ""; 
         document.querySelector("#index21").innerHTML = ""; 
         document.querySelector("#index22").innerHTML = ""; 
+
+        document.querySelector("#winner").innerHTML = "TicTacToe"; 
+
     });
     
    
