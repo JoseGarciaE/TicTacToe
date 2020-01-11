@@ -94,6 +94,7 @@ $(document).ready(function(){
 
     $("#reset").click(function(){
         aiMode = false;
+        turnCount = 0;
         document.querySelector("#ai").disabled= false;
 
         var reset = document.querySelectorAll(".index"); 
